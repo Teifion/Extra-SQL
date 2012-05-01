@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+INSERT INTO ${1:tableName} (${2:fields}) VALUES (${2});]]></content>
+    <tabTrigger>insert</tabTrigger>
+    <scope>source.sql, source.php, source.python</scope>
+    <description>Insert data</description>
+</snippet>

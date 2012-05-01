@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+CREATE INDEX ${1:index_name} ON ${2:table_name} (${3:field_name});
+]]></content>
+    <tabTrigger>sql_index</tabTrigger>
+    <scope>source.sql, source.php, source.python</scope>
+    <description>Add an index</description>
+</snippet>
